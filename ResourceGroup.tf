@@ -6,10 +6,10 @@ provider "azurerm" {
   
   version = "1.3.3"
   
-  SubcriptionsID = var.SubcriptionsID
-  ClientID = var.ClientID
-  ClientSecret = var.ClientSecret
-  TanentID = var.TanentID
+  subcriptions_id = var.SubcriptionsID
+  client_id = var.ClientID
+  client_secret = var.ClientSecret
+  tanent_id = var.TanentID
   
   features {}
 }
