@@ -1,10 +1,5 @@
-#Establish connection by service principal!
-
-
 provider "azurerm" {
-  # Configuration options
- 
-  
+   
   subscription_id = var.SubcriptionsID
   client_id = var.ClientID
   client_secret = var.ClientSecret
