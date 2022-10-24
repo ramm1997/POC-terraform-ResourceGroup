@@ -3,8 +3,7 @@
 
 provider "azurerm" {
   # Configuration options
-  
-  version = "3.28.0"
+ 
   
   subscription_id = var.SubcriptionsID
   client_id = var.ClientID
