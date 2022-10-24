@@ -1,12 +1,10 @@
-provider "azurerm" {
-  # Configuration options
-   features {}
-}
-
-resource "azurerm_resource_group" "ResourceGroup-POC-RG" {
-  name     = "poc-resources"
-  location = "eastus"
-  tags = {
-    Owner = "ramm"
+# We strongly recommend using the required_providers block to set the
+# Azure Provider source and version being used
+terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "3.28.0"
+    }
   }
 }
